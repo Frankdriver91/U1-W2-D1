@@ -10,7 +10,7 @@ REGOLE
 /* ESERCIZIO 1
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 
-/* SCRString sono caratteri di testo fra due apici, number sono dei numeri e boolean sono valori che restituiscono vero o falso.
+  String sono caratteri di testo fra due apici, number sono dei numeri e boolean sono valori che restituiscono vero o falso.
 
 
 /* ESERCIZIO 2
@@ -56,5 +56,5 @@ console.log(num - x);
 let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2);
-name2 = name1;
-console.log(name1 === name2);
+
+console.log(name1.toLowerCase === name2.toLowerCase);
